@@ -1,19 +1,13 @@
 
 const express = require('express')
 const app = express()
+const rotas = require('./routes/index')
 
+app.use(rotas)
 
-
-
+app.use(express.urlencoded({extended: false}))
 app.use(express.static('public'))
 app.set('view engine',"ejs")
-
-
-
-
-app.get("/", (req,res) => {
-    res.render("index", {title: "Express"})
-})
 
 
 app.listen(3000, () => {

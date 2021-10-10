@@ -5,6 +5,10 @@
   color: white;
 }
 
+body {
+  margin: 0pc;
+}
+
 .barraDePesquisa{
   background-color: #C4C4C4;
   width: 638px;

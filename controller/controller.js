@@ -1,13 +1,11 @@
-var express = require('express');
-var router = express.Router();
-
-
 
 const controlar = {
     home: (req,res) => {
-        res.render('index')
-    }
+      return  res.render('index')
+    },
     cadastro: (req,res) => {
-        res.render('')
+      return  res.render('cadastro')
     }
 }
+
+module.exports = controlar
