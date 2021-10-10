@@ -19,64 +19,7 @@
 
 <body>
 
-  <header>
-
-
-    <div id="containerHeader">
-      <img src="/images/Logo.jpg" style="width: 100px; height: 100px;" alt="">
-      <div>
-
-        <div class="pesquisa"> <input class="barraDePesquisa" placeholder="Pesquise o seu produto... " type="text">
-        </div>
-        <hr class="linhaCatergoria">
-        <div class="opcoes">
-
-          <table>
-            <li>Categorias</li>
-            <li>Ofertas do dia</li>
-            <li>Vender</li>
-            <li>Contato</li>
-            <li>Carrinho</li>
-
-          </table>
-
-        </div>
-
-      </div>
-
-      <div class="InformeCep">
-        <div class="new">
-          <p> <span class="new">NEW</span></p>
-        </div>
-
-        <p>informa seu </p>
-
-        <div class="d-flex justify-content-center">
-          <p>CEP</p>
-        </div>
-      </div>
-
-      <div class="perfil">
-
-        <div>
-          <input type="text" class="barraCadastro">
-        </div>
-
-        <div id="cadastroEperfil">
-
-          <div>
-            <p>Cadastro</p>
-          </div>
-          <div>
-            <p>Perfil </p>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-  </header>
+<%- include('./partials/header.ejs') %>
 
 
   <main>
@@ -125,6 +68,7 @@
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="d-flex justify-content-center"> <img src="/images/Teste-01.jpg" class="d-block w-25 h-25"
@@ -135,6 +79,7 @@
               </div>
             </div>
           </div>
+
           <div class="carousel-item" data-bs-interval="2000">
             <div class="d-flex justify-content-center"> <img src="/images/Teste-02.jpg" class="d-block w-25 h-25"
                 alt="..."></div>
@@ -144,6 +89,7 @@
               </div>
             </div>
           </div>
+
           <div class="carousel-item">
             <div class="d-flex justify-content-center"><img src="/images/Teste-03.jpg" class="d-block w-25 h-25"
                 alt="..."></div>
@@ -154,6 +100,7 @@
             </div>
           </div>
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -294,30 +241,7 @@
 </div>      
 </div>
 
-      
-
-<footer>
-<div class="d-flex">
-<div id="logoFooter"><img src="/images/Logo.jpg" style="width: 100px; height: 100px;" alt=""></div>
-
-<div class="informacoesFooter">
-  <div id="opcoesDeContato"> 
-  <table>
-      <li>Trabalhe conosco</li>
-      <li>Termos e condições</li>
-      <li>Como cuidamos da sua privacidade</li>
-      <li>Contato</li>
-     </table> 
-  </div>   
-  
-  <div id="endereco">
-  <p>Copyright © 1999-2021 Ebazar.com.br LTDA.</p>
-      <p>CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.</p>
-     
-  </div>
- </div>
-</div>
-      </footer>
+<%- include('./partials/footer') %>    
 
 </body>
 
