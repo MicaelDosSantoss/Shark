@@ -5,6 +5,12 @@ const controlar = {
     },
     cadastro: (req,res) => {
       return  res.render('cadastro')
+    },
+    pagamento: (req,res) => {
+      return res.render('formaDePagamento')
+    },
+    carrinho: (req,res) => {
+      return res.render('carrinho')
     }
 }
 
