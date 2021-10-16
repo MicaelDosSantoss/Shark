@@ -5,8 +5,10 @@ const controlar = require('../controller/controller')
 
 
 router.get('/home',controlar.home)
-router.get('/cadastro',controlar.cadastro)
 router.get('/pagamento',controlar.pagamento)
+router.get('/cadastro',controlar.cadastro)
 router.get('/carrinho',controlar.carrinho)
+router.get('/item',controlar.item)
+
 
 module.exports = router;

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+  font-family: 'Monda', sans-serif;
+  color: white;
+}
+
+
+body {
+  margin: 0px;
+}
+
+.barraDePesquisa{
+  background-color: #C4C4C4;
+  width: 638px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+header {
+  padding-top: 10px;
+  background-color: #696A77;
+}
+
+
+#containerHeader {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: #393939;
+}
+
+.new {
+  display: flex;
+    justify-content: center;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+
+}
+
+#cadastroEperfil {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.barraCadastro{
+  background-color: #464646;
+  width: 321px;
+  height: 39px;
+  border: none;
+  outline: none;
+
+}
+
+main {
+  background-color: #565656;
+}
+
+
+#endereco {
+    margin-top: 20px;
+  }
+  
+  .perfil{
+    margin-top: 3px;
+  }
+  
+  #opcoesDeContato {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #logoFooter {
+    margin: 15px;
+  }
+  
+  .informacoesFooter {
+    margin: 15px;
+  }
+
+  .blocoInforItem {
+      background-color: #3B3C4B;
+      width: 1302px;
+      
+  }
+
+.precoReal{
+   color: #181818;
+   font-size: 36px;
+  }
+
+.dinheiroBrasil {
+   font-size: 36px;
+}
+
+.precosComDesconto {
+   font-size: 36px;
+}
+  
+.adicionarAoCarrinho{
+  background-color: #353535;
+}
+
+
+  

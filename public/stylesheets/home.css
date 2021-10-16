@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+  font-family: 'Monda', sans-serif;
+  color: white;
+}
+
+
+.barraDePesquisa{
+    background-color: #C4C4C4;
+    width: 638px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+  }
+  
+  header {
+    padding-top: 10px;
+    background-color: #696A77;
+  }
+  
+  
+li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  footer {
+    background-color: #393939;
+  }
+
+  
+.new {
+    display: flex;
+      justify-content: center;
+  }
+  
+  .opcoes {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  #cadastroEperfil {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .barraCadastro{
+    background-color: #464646;
+    width: 321px;
+    height: 39px;
+    border: none;
+    outline: none;
+  
+  }
+  
+main {
+    background-color: #6C6C6C;
+  }
+  
+  #endereco {
+    margin-top: 20px;
+  }
+  
+  .perfil{
+    margin-top: 3px;
+  }
+  
+  #opcoesDeContato {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #logoFooter {
+    margin: 15px;
+  }
+  
+  .informacoesFooter {
+    margin: 15px;
+  }
+  
+  
+#carouselExampleDark{
+    background-color: white;
+    width: 1100px;
+  }
+  
+  #carouselExampleIndicators {
+    width: 1366px; 
+    height: 105px;
+  }
+  
+  .descontoCarrosel {
+    color: black;
+  }
+  
+  
+  
+  .caixaDeProdutos{
+    display: flex;
+  
+  }
+  
+  .caixa {
+    display: flex;
+    
+  }
+  
+  .dinheiroBrasil {
+    font-size: 32px;
+  }
+  
+  .precoReal {
+    font-size: 29px;
+    color: #222222;
+    margin-left: 20px;
+  }
+  
+  .separarLinhasDeCaixas {
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .precosComDesconto{
+    font-size: 29px;
+    color: #C0C0C0;
+  }
+  
+   #mainCadastro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+  } 
+  
+  .inputCadastro {
+   background-color: #C4CEDB;
+   width: 477px;
+    height: 44.48px;
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+  }

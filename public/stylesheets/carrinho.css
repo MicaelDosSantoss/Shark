@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+  font-family: 'Monda', sans-serif;
+  color: white;
+}
+
+
+body {
+  margin: 0px;
+}
+
+.barraDePesquisa{
+  background-color: #C4C4C4;
+  width: 638px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+header {
+  padding-top: 10px;
+  background-color: #696A77;
+}
+
+.carroselSuperior {
+  width: 100%;
+}
+
+#containerHeader {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: #393939;
+}
+
+.new {
+  display: flex;
+    justify-content: center;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+
+}
+
+#cadastroEperfil {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.barraCadastro{
+  background-color: #464646;
+  width: 321px;
+  height: 39px;
+  border: none;
+  outline: none;
+
+}
+
+main {
+  background-color: #6C6C6C;
+}
+
+#endereco {
+  margin-top: 20px;
+}
+
+.perfil{
+  margin-top: 3px;
+}
+
+#opcoesDeContato {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#logoFooter {
+  margin: 15px;
+}
+
+.informacoesFooter {
+  margin: 15px;
+}
+
+.caixaDoCarrinho {
+
+    width: 1054px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+   background-color: #72757B;
+  }
+  
+  .hrDoCarrinho {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagemCarrinhoCortado{
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  #botaoDeAdicionarAoCarrinho {
+    width: 981.64px;
+    height: 120px;
+    border: none;
+    background-color: #6A6A6A;
+    border-radius: 15px ;
+    outline: none;
+  
+  }
+  
+  #botaoDeAdicionarAoCarrinho:hover{
+    transition-duration: 0.5s;
+    background-color: #177D94;
+    border: 3px solid #177777;
+  }
+  
+  #realizarCompra{
+    width: 281px;
+  }
+  
+  #realizarCompra:hover {
+    transition-duration: 2s;
+    background-color: blue;
+  }
+
+  
+ .alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+
+  
+  .precoReal {
+    font-size: 29px;
+    color: #222222;
+    margin-left: 20px;
+  }
+
+  
+  .precosComDesconto{
+    font-size: 29px;
+    color: #C0C0C0;
+  }
+  
+
+  #realizarCompra{
+    width: 281px;
+    height: 79px;
+    border: none;
+    border-radius: 15px;
+    background-color: #828282;
+}
+  
+  #realizarCompra:hover {
+    transition-duration: 2s;
+    background-color: blue;
+  }

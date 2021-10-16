@@ -11,6 +11,9 @@ const controlar = {
     },
     carrinho: (req,res) => {
       return res.render('carrinho')
+    },
+    item:(req,res) => {
+      return res.render('item')
     }
 }
 

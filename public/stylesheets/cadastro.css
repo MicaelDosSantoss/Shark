@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+  font-family: 'Monda', sans-serif;
+  color: white;
+}
+
+
+body {
+  margin: 0px;
+}
+
+.barraDePesquisa{
+  background-color: #C4C4C4;
+  width: 638px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+header {
+  padding-top: 10px;
+  background-color: #696A77;
+}
+
+.carroselSuperior {
+  width: 100%;
+}
+
+#containerHeader {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: #393939;
+}
+
+.new {
+  display: flex;
+    justify-content: center;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+
+}
+
+#cadastroEperfil {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.barraCadastro{
+  background-color: #464646;
+  width: 321px;
+  height: 39px;
+  border: none;
+  outline: none;
+
+}
+
+main {
+  background-color: #6C6C6C;
+}
+
+
+#mainCadastro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+  } 
+  
+  .inputCadastro {
+   background-color: #C4CEDB;
+   width: 477px;
+    height: 44.48px;
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+  }
+  
+  .inputSeparar{
+    margin: 20px;
+  }
+  
+  .InputSelection {
+    color: #222222;
+    width: 190px;
+   background-color: #C4CEDB;
+   border: none;
+   outline: none;
+   border-radius: 20px ;
+  }
+  
+  
+  
+  .inform1{
+      margin: 10px;
+  }
+  
+  .dataNascimento {
+    width: 60px;
+    background-color: #C4CEDB;
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+   
+    height: 30px;
+  }
+  
+  .inform2{
+    margin: 10px;
+  
+  }
+  
+  .inputNumero{
+   width: 90px;
+   height: 45px;
+   color: #222222;
+   background-color: #C4CEDB;
+   border: none;
+   outline: none;
+   border-radius: 20px ;
+  }
+  
+  .inputComplemento {
+    width: 163px;
+    height: 45px;
+    background-color: #C4CEDB;
+   border: none;
+   outline: none;
+   border-radius: 20px ;
+  }
+  
+  .inputCidade { 
+   width: 227px;
+   background-color: #C4CEDB;
+   border: none;
+   outline: none;
+   border-radius: 20px ;
+  }
+  
+  #botaoDeCadastro {
+    margin-top: 60px;
+    background-color: #177D94;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 394px;
+    height: 49.31px;
+    font-size: 30px;
+    text-transform: bold;  
+  }
