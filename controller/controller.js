@@ -14,7 +14,11 @@ const controlar = {
     },
     item:(req,res) => {
       return res.render('item')
-    }
+    },
+    OpcoesEntrega:(req,res) => {
+      return res.render("TelaDeVendas/opcoesDeEntrega")
+    },
+
 }
 
 module.exports = controlar

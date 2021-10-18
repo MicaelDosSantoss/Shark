@@ -5,6 +5,11 @@
   color: white;
 }
 
+body{
+    margin: 0;
+}
+
+
 #containerHeader {
   width: 100%;
   height: 100px;
@@ -187,58 +192,3 @@ main {
     margin: 15px 0px;
     margin-left: 30px;
   }
-  
-  
-#carouselExampleDark{
-    background-color: white;
-    width: 1100px;
-  }
-  
-  #carouselExampleIndicators {
-    width: 1366px; 
-    height: 105px;
-  }
-  
-  .descontoCarrosel {
-    color: black;
-  }
-  
-  
-  
-  .caixaDeProdutos{
-    display: flex;
-  
-  }
-  
-  .caixa {
-    display: flex;
-    
-  }
-  
-  .dinheiroBrasil {
-    font-size: 32px;
-  }
-  
-  .precoReal {
-    font-size: 29px;
-    color: #222222;
-    margin-left: 20px;
-  }
-  
-  .separarLinhasDeCaixas {
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 5%;
-  }
-  
-  .precosComDesconto{
-    font-size: 29px;
-    color: #C0C0C0;
-  }
-  
-   #mainCadastro {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-around;
-  } 
-  
